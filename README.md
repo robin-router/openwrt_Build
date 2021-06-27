@@ -1,3 +1,64 @@
+# 自用
+
+
+## 附带插件如下
+	状态
+		概览
+		防火墙
+		路由表
+		系统日志
+		内核日志
+		系统进程
+		实时信息
+		释放内存
+	系统
+		系统
+		管理权
+		TTYD终端
+		软件包
+		启动项
+		计划任务
+		挂载点
+		磁盘管理
+		备份/升级
+		定时重启
+		文件传输
+		重启
+	服务
+		PassWall
+		广告屏蔽大师 PLUS+
+		AdGuard Home
+		ShadowSocksR Plus+
+		上网时间控制
+		微信推送
+		解锁网易云灰色歌曲
+		动态DNS
+		网络唤醒
+		UU游戏加速器
+		UPnP
+		KMS服务器
+	NAS
+		网络共享
+	网络
+		接口
+		DHCP/DNS
+		主机名
+		IP/MAC绑定
+		静态路由
+		网络诊断
+		防火墙
+		网速控制
+		流量统计
+		Turbo ACC网络加速	
+	带宽监控
+		显示
+		配置
+		备份
+		实时流量检测
+    退出
+
+
+
 # Actions-OpenWrt
 
 [![LICENSE](https://img.shields.io/github/license/mashape/apistatus.svg?style=flat-square&label=LICENSE)](https://github.com/P3TERX/Actions-OpenWrt/blob/master/LICENSE)
