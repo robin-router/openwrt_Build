@@ -19,7 +19,7 @@ echo '添加插件库'
 #sed -i '$a src-git diy https://github.com/firker/diy-ziyong' feeds.conf.default
 sed -i '$a src-git kenzo https://github.com/kenzok8/openwrt-packages' feeds.conf.default
 sed -i '$a src-git small https://github.com/kenzok8/small' feeds.conf.default
-#sed -i '$a src-git s1oz https://github.com/s1oz/package' feeds.conf.default
+sed -i '$a src-git s1oz https://github.com/s1oz/package' feeds.conf.default
 
 #echo '下载passwall'
 #sed -i '$a src-git xiaorouji https://github.com/xiaorouji/openwrt-passwall' feeds.conf.default
