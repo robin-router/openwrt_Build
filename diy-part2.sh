@@ -28,11 +28,11 @@ sed -i "/CYXluq4wUazHjmCDBCqXF/d" package/lean/default-settings/files/zzz-defaul
 #echo '修改机器名称'
 #sed -i 's/OpenWrt/fish/g' package/base-files/files/bin/config_generate
 
-echo '删除原主题'
-rm -rf package/lean/luci-theme-bootstrap
+#echo '删除原主题'
+#rm -rf package/lean/luci-theme-argon
 
-#echo '修改默认主题'
-#sed -i 's/luci-theme-bootstrap/luci-theme-argon_new/g' feeds/luci/collections/luci/Makefile
+echo '修改默认主题'
+sed -i 's/luci-theme-bootstrap/luci-theme-argon_new/g' feeds/luci/collections/luci/Makefile
 
 echo '修改版本号'
 sed -i "s/OpenWrt /s1oz build $(TZ=UTC-8 date "+%Y.%m.%d") @ OpenWrt /g" package/lean/default-settings/files/zzz-default-settings
