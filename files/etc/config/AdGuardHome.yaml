@@ -96,7 +96,7 @@ tls:
   certificate_path: ""
   private_key_path: ""
 filters:
-- enabled: true
+- enabled: false
   url: http://sub.adtchrome.com/adt-chinalist-easylist.txt
   name: 广告终结者使用的拦截规则，基于ChinaList+EasyList修正维护
   id: 139789181
@@ -108,15 +108,15 @@ filters:
   url: https://easylist-downloads.adblockplus.org/easylistchina.txt
   name: EasyList China-EasyList针对国内的补充规则
   id: 139789121
-- enabled: true
+- enabled: false
   url: https://cdn.jsdelivr.net/gh/privacy-protection-tools/anti-AD@master/anti-ad-easylist.txt
   name: anti-AD命中率最高列表
   id: 139789122
 - enabled: true
-  url: https://gitee.com/halflife/list/raw/master/ad.txt
+  url: https://halflife.coding.net/p/list/d/list/git/raw/master/ad-mo.txt
   name: halflife合并乘风
   id: 139789131
-- enabled: true
+- enabled: false
   url: https://easylist.to/easylist/easyprivacy.txt
   name: EasyPrivacy隐私相关
   id: 139789132
@@ -124,11 +124,11 @@ filters:
   url: https://www.i-dont-care-about-cookies.eu/abp/
   name: I don't care about cookies隐私相关
   id: 139789133
-- enabled: true
+- enabled: false
   url: https://raw.githubusercontent.com/BlueSkyXN/AdGuardHomeRules/master/all.txt
   name: 百万ADH广告拦截过滤规则
   id: 139789141
-- enabled: true
+- enabled: false
   url: https://raw.githubusercontent.com/jerryn70/GoodbyeAds/master/Extension/GoodbyeAds-YouTube-AdBlock.txt
   name: GoodbyeAds 大全去广告
   id: 139789142
@@ -209,9 +209,17 @@ filters:
   name: Adaway HOST
   id: 139789187
 - enabled: true
-  url: https://ewpratten.retrylife.ca/youtube_ad_blocklist/hosts.ipv4.txt
+  url: https://ewpratten.retrylife.ca/youtube_ad_blocklist/domains.txt
   name: youtube
   id: 1624776447
+- enabled: false
+  url: https://anti-ad.net/easylist.txt
+  name: Anti-AD
+  id: 1626433607
+- enabled: false
+  url: https://raw.githubusercontent.com/banbendalao/ADgk/master/ADgk.txt
+  name: ADgk（针对安卓手机推荐）
+  id: 1626433608
 whitelist_filters: []
 user_rules:
 - '@@||taobao.com^$important'
