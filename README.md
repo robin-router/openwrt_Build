@@ -1,6 +1,5 @@
 # 自用
-
-
+[固件下载](https://github.com/s1oz/openwrt_Build/actions/workflows/build-openwrt.yml)
 ## 附带插件如下
 	状态
 		概览
