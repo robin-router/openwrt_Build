@@ -1,5 +1,7 @@
 # 自用
+192.168.1.1 root 
 [固件下载](https://github.com/s1oz/openwrt_Build/actions/workflows/build-openwrt.yml)
+dd if=/tmp/upload/op.img of=/dev/sda
 ## 附带插件如下
 	状态
 		概览
@@ -19,25 +21,26 @@
 		计划任务
 		挂载点
 		磁盘管理
+		高级设置
 		备份/升级
+		文件股暗力
 		定时重启
 		文件传输
 		重启
 	服务
-		PassWall
 		广告屏蔽大师 PLUS+
 		AdGuard Home
 		ShadowSocksR Plus+
-		上网时间控制
 		微信推送
 		解锁网易云灰色歌曲
 		动态DNS
 		网络唤醒
-		UU游戏加速器
 		UPnP
 		KMS服务器
 	NAS
 		网络共享
+	Control
+		网速限制
 	网络
 		接口
 		DHCP/DNS
@@ -46,7 +49,6 @@
 		静态路由
 		网络诊断
 		防火墙
-		网速控制
 		流量统计
 		Turbo ACC网络加速	
 	带宽监控
