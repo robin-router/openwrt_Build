@@ -36,3 +36,6 @@ sed -i 's/luci-theme-bootstrap/luci-theme-argon_new/g' feeds/luci/collections/lu
 
 echo '修改版本号'
 sed -i "s/OpenWrt /s1oz build $(TZ=UTC-8 date "+%Y.%m.%d") @ OpenWrt /g" package/lean/default-settings/files/zzz-default-settings
+
+echo '重定向dns'
+sed -i 's/iptables -t nat -A PREROUTING -p udp --dport 53 -j REDIRECT --to-ports 53/# iptables -t nat -A PREROUTING -p udp --dport 53 -j REDIRECT --to-ports 53/g' package/lean/default-settings/files/zzz-default-settings
