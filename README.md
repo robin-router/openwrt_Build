@@ -2,6 +2,7 @@
 192.168.1.1 root 
 [固件下载](https://github.com/s1oz/openwrt_Build/actions/workflows/build-openwrt.yml)
 dd if=/tmp/upload/op.img of=/dev/sda
+
 ## 附带插件如下
 	状态
 		概览
@@ -11,7 +12,6 @@ dd if=/tmp/upload/op.img of=/dev/sda
 		内核日志
 		系统进程
 		实时信息
-		释放内存
 	系统
 		系统
 		管理权
@@ -23,14 +23,12 @@ dd if=/tmp/upload/op.img of=/dev/sda
 		磁盘管理
 		高级设置
 		备份/升级
-		文件股暗力
-		定时重启
+		文件管理
 		文件传输
 		重启
 	服务
-		广告屏蔽大师 PLUS+
 		AdGuard Home
-		ShadowSocksR Plus+
+		PASSWALL
 		微信推送
 		解锁网易云灰色歌曲
 		动态DNS

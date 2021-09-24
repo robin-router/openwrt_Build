@@ -20,18 +20,18 @@ echo '添加插件库'
 #sed -i '$a src-git kenzo https://github.com/kenzok8/openwrt-packages' feeds.conf.default
 #sed -i '$a src-git small https://github.com/kenzok8/small' feeds.conf.default
 #sed -i '$a src-git s1oz https://github.com/s1oz/package' feeds.conf.default
-#sed -i '$a src-git xiaorouji https://github.com/xiaorouji/openwrt-passwall' feeds.conf.default
-sed -i '$a src-git ssr https://github.com/fw876/helloworld' feeds.conf.default
+sed -i '$a src-git xiaorouji https://github.com/xiaorouji/openwrt-passwall' feeds.conf.default
+#sed -i '$a src-git ssr https://github.com/fw876/helloworld' feeds.conf.default
 
 #echo '下载ServerChan'
 #git clone https://github.com/tty228/luci-app-serverchan.git package/luci-app-serverchan
 
 echo '下载bandwidthd'
 git clone https://github.com/AlexZhuo/luci-app-bandwidthd.git package/luci-app-bandwidthd
-svn co https://github.com/sirpdboy/sirpdboy-package/trunk/AdGuardHome/files/etc files/etc
 
 echo '下载adguardhome'
 git clone https://github.com/rufengsuixing/luci-app-adguardhome package/luci-app-adguardhome
+svn co https://github.com/sirpdboy/sirpdboy-package/trunk/AdGuardHome/files/etc files/etc
 
 echo '下载eqos'
 svn co https://github.com/sirpdboy/sirpdboy-package/trunk/luci-app-eqos package/luci-app-eqos
