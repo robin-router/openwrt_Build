@@ -39,4 +39,3 @@ sed -i "s/OpenWrt /s1oz build $(TZ=UTC-8 date "+%Y.%m.%d") @ OpenWrt /g" package
 
 echo '重定向dns'
 sed -i 's/iptables -t nat -A PREROUTING -p udp --dport 53 -j REDIRECT --to-ports 53/# iptables -t nat -A PREROUTING -p udp --dport 53 -j REDIRECT --to-ports 53/g' package/lean/default-settings/files/zzz-default-settings
->>>>>>> 379a54abb6993087a615d4d083c4ad82180824d0
